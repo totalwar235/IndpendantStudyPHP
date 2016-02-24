@@ -1,0 +1,26 @@
+.whole{
+    background-color: dimgrey;
+    color: #334e6d;
+    margin: 5%;
+}
+
+.main{
+    background-color: #909090;
+}
+
+.body{
+
+}
+
+.user{
+
+}
+
+.loginBox{
+    float: right;
+}
+
+/*footer*/
+footer{
+    color: darkgoldenrod;
+}
