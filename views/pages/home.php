@@ -1,5 +1,12 @@
 
-<p>Hello there <?php echo $first_name . ' ' . $last_name; ?>!</p>
+<p>Hello there <?php 
+                    if($curUser == null){
+                        echo $first_name . ' ' . $last_name;
+                    } else {
+                        echo  $curUser.getUserName();
+                    }
+                ?>
+!</p>
 
 <p>You successfully landed on the home page. Congrats!</p>
 

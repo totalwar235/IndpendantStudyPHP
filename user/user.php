@@ -1,11 +1,5 @@
 <?php
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  * Description of user
  *
@@ -13,8 +7,19 @@
  */
 class user {
     //put your code here
-
+    private $userName;
+    private $passWrd;
+    
     function login($name, $password){
-        
+        self::$userName = $name;
+        self::$passWrd =  $password;
+    }
+    
+    //getters
+    function getUserName(){
+        return self::$userName;
     }
 }
+
+$curUser = new user();
+$curUser.login($_POST['user'],$_POST['passwrd']);

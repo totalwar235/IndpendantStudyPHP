@@ -14,16 +14,10 @@
     <body class="whole">
         <div class="row main">
             <header>
-                <a href="/quary12/">
+                <a href="/quary12/?controller=pages&action=home">
                     <h1>Front Page</h1>
                 </a>
             </header>
-
-          <article>
-              <section>
-                  <?php echo 'php works' ?>
-              </section>
-          </article>
 
           <article class="col-md-8 col-lg-8 body">
             <section>
@@ -35,13 +29,12 @@
 
           <article class="col-md-4 col-lg-4 user">
               <?php
-                    if($user == null){
+                    if($curUser == null){
                         require 'views/pages/login.php';
                     }else{
                         require 'views/pages/account.php';
                     }
               ?>
-              <!--<a href="?controller=pages&action=login"></a>-->
           </article>
         </div>
     <footer>Made by Reed/Totalwar235 in 2016</footer>

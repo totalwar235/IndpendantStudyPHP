@@ -1,0 +1,1 @@
+<p>user: <?php echo curUser.getUserName ?> </p>

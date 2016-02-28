@@ -1,7 +1,15 @@
-<form>
-    <label for="user">user: <input id="user" class="loginBox" type="text" value="<?php echo $first_name ?>"/></label>
+<form action="/quary12/?controller=pages&action=home" method="post">
+    <label for="user">user: 
+        <input id="user" class="loginBox" type="text" value="<?php echo $first_name ?>"/>
+    </label>
+    
     <br/>
-    <label for="passwrd">password: <input id="passwrd" class="loginBox" type="password" /></label>
+    
+    <label for="passwrd">password: 
+        <input id="passwrd" class="loginBox" type="password" />
+    </label>
+    
     <br/>
-    <button onclick="initialLogin()">Login</button>
+    
+    <button type="submit">Login</button>
 </form>
