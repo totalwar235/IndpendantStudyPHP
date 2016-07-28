@@ -1,2 +1,156 @@
 
 [28-Feb-2016 00:30:14] PHP Fatal error:  Call to undefined function  getusername() in /home6/dsuclass/public_html/quary12/views/pages/home.php on line 6
+[06-Apr-2016 00:38:46] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 6
+[06-Apr-2016 00:40:18] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 6
+[06-Apr-2016 00:51:43] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 13
+[13-Apr-2016 18:57:09] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 17
+[13-Apr-2016 18:57:24] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 17
+[13-Apr-2016 18:58:19] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 19
+[13-Apr-2016 18:59:34] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 19
+[13-Apr-2016 19:00:24] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 21
+[13-Apr-2016 19:01:43] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 21
+[13-Apr-2016 19:06:15] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 21
+[13-Apr-2016 19:06:42] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 21
+[13-Apr-2016 19:07:33] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 21
+[13-Apr-2016 19:08:21] PHP Catchable fatal error:  Object of class PDO could not be converted to string in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 22
+[13-Apr-2016 19:09:58] PHP Catchable fatal error:  Object of class PDO could not be converted to string in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 24
+[13-Apr-2016 19:12:11] PHP Catchable fatal error:  Object of class PDO could not be converted to string in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 24
+[13-Apr-2016 19:12:44] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 24
+[13-Apr-2016 19:15:51] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 24
+[13-Apr-2016 19:59:33] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 27
+[13-Apr-2016 20:09:36] PHP Warning:  require_once(../../connection.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 2
+[13-Apr-2016 20:09:36] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../../connection.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 2
+[13-Apr-2016 20:12:13] PHP Warning:  require_once(../connection.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 2
+[13-Apr-2016 20:12:13] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../connection.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 2
+[13-Apr-2016 20:15:43] PHP Fatal error:  Call to a member function query() on a non-object in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 7
+[13-Apr-2016 20:19:51] PHP Fatal error:  Call to private Db::__construct() from invalid context in /home6/dsuclass/public_html/quary12/index.php on line 4
+[13-Apr-2016 20:21:09] PHP Fatal error:  Call to a member function query() on a non-object in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 7
+[13-Apr-2016 20:22:16] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'dsuclass_quary12'@'localhost' (using password: YES)' in /home6/dsuclass/public_html/quary12/test.php:6
+Stack trace:
+#0 /home6/dsuclass/public_html/quary12/test.php(6): PDO->__construct('mysql:host=loca...', 'dsuclass_quary1...', 'dsuclass_quary')
+#1 {main}
+  thrown in /home6/dsuclass/public_html/quary12/test.php on line 6
+[13-Apr-2016 20:22:59] PHP Fatal error:  Call to private Db::__construct() from invalid context in /home6/dsuclass/public_html/quary12/index.php on line 4
+[13-Apr-2016 20:23:17] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 11
+[13-Apr-2016 20:23:17] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 11
+[13-Apr-2016 20:25:45] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 11
+[13-Apr-2016 20:25:46] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 11
+[13-Apr-2016 20:28:34] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 11
+[13-Apr-2016 20:30:48] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 16
+[13-Apr-2016 20:30:49] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 16
+[13-Apr-2016 20:32:36] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 11
+[13-Apr-2016 20:32:37] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 11
+[13-Apr-2016 20:34:05] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 11
+[13-Apr-2016 20:34:10] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 11
+[13-Apr-2016 20:34:23] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 11
+[13-Apr-2016 20:37:53] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 11
+[13-Apr-2016 20:41:39] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 11
+[13-Apr-2016 20:41:40] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 11
+[13-Apr-2016 20:46:57] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 11
+[13-Apr-2016 20:46:58] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 11
+[13-Apr-2016 20:48:35] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 11
+[13-Apr-2016 20:49:53] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 11
+[13-Apr-2016 20:49:54] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 11
+[13-Apr-2016 20:53:12] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 12
+[13-Apr-2016 20:53:13] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 12
+[13-Apr-2016 20:55:43] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 11
+[13-Apr-2016 20:55:45] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 11
+[13-Apr-2016 20:56:38] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 13
+[13-Apr-2016 20:56:39] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 13
+[13-Apr-2016 20:56:40] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/test.php on line 13
+[17-Apr-2016 18:57:54] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 23
+[17-Apr-2016 18:59:14] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 23
+[17-Apr-2016 19:06:14] PHP Fatal error:  Call to undefined method PDOStatement::store_result() in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 15
+[17-Apr-2016 19:37:33] PHP Fatal error:  Call to undefined function  login() in /home6/dsuclass/public_html/quary12/user/user.php on line 43
+[17-Apr-2016 19:38:59] PHP Fatal error:  Call to undefined function  login() in /home6/dsuclass/public_html/quary12/user/user.php on line 44
+[17-Apr-2016 19:40:26] PHP Fatal error:  Call to undefined function  login() in /home6/dsuclass/public_html/quary12/user/user.php on line 44
+[17-Apr-2016 19:40:29] PHP Fatal error:  Call to undefined function  login() in /home6/dsuclass/public_html/quary12/user/user.php on line 44
+[17-Apr-2016 19:41:22] PHP Fatal error:  Call to undefined function  login() in /home6/dsuclass/public_html/quary12/user/user.php on line 44
+[17-Apr-2016 19:41:24] PHP Fatal error:  Call to undefined function  login() in /home6/dsuclass/public_html/quary12/user/user.php on line 44
+[17-Apr-2016 19:41:43] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '/user/user.php' for inclusion (include_path='.:/usr/lib64/php:/usr/share/pear') in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 2
+[17-Apr-2016 19:41:43] PHP Fatal error:  Class 'user' not found in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 9
+[17-Apr-2016 19:44:10] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '/user/user.php' for inclusion (include_path='.:/usr/lib64/php:/usr/share/pear') in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 2
+[17-Apr-2016 19:44:10] PHP Fatal error:  Class 'user' not found in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 9
+[17-Apr-2016 19:46:27] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../../user/user.php' for inclusion (include_path='.:/usr/lib64/php:/usr/share/pear') in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 2
+[17-Apr-2016 19:46:27] PHP Fatal error:  Class 'user' not found in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 9
+[17-Apr-2016 19:48:08] PHP Fatal error:  Call to undefined function  login() in /home6/dsuclass/public_html/quary12/user/user.php on line 44
+[17-Apr-2016 19:58:46] PHP Fatal error:  Access to undeclared static property: user::$userName in /home6/dsuclass/public_html/quary12/user/user.php on line 31
+[17-Apr-2016 20:00:18] PHP Fatal error:  Access to undeclared static property: user::$userName in /home6/dsuclass/public_html/quary12/user/user.php on line 32
+[17-Apr-2016 20:02:00] PHP Fatal error:  Access to undeclared static property: user::$userName in /home6/dsuclass/public_html/quary12/user/user.php on line 32
+[17-Apr-2016 20:06:30] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/dsuclass/public_html/quary12/views/layout.php:6) in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 12
+[17-Apr-2016 20:31:46] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/dsuclass/public_html/quary12/views/layout.php:6) in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 12
+[17-Apr-2016 20:34:27] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/dsuclass/public_html/quary12/views/layout.php:6) in /home6/dsuclass/public_html/quary12/views/pages/validate.php on line 12
+[18-Apr-2016 19:30:08] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home6/dsuclass/public_html/quary12/views/layout.php:6) in /home6/dsuclass/public_html/quary12/user/user.php on line 39
+[18-Apr-2016 19:30:08] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home6/dsuclass/public_html/quary12/views/layout.php:6) in /home6/dsuclass/public_html/quary12/user/user.php on line 39
+[18-Apr-2016 20:27:39] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home6/dsuclass/public_html/quary12/views/layout.php:6) in /home6/dsuclass/public_html/quary12/user/user.php on line 39
+[18-Apr-2016 20:27:39] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home6/dsuclass/public_html/quary12/views/layout.php:6) in /home6/dsuclass/public_html/quary12/user/user.php on line 39
+[19-Apr-2016 19:26:14] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home6/dsuclass/public_html/quary12/views/layout.php:10) in /home6/dsuclass/public_html/quary12/user/user.php on line 39
+[19-Apr-2016 19:26:14] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home6/dsuclass/public_html/quary12/views/layout.php:10) in /home6/dsuclass/public_html/quary12/user/user.php on line 39
+[19-Apr-2016 19:28:03] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home6/dsuclass/public_html/quary12/views/layout.php:10) in /home6/dsuclass/public_html/quary12/user/user.php on line 39
+[19-Apr-2016 19:28:03] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home6/dsuclass/public_html/quary12/views/layout.php:10) in /home6/dsuclass/public_html/quary12/user/user.php on line 39
+[19-Apr-2016 20:48:44] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home6/dsuclass/public_html/quary12/views/layout.php:10) in /home6/dsuclass/public_html/quary12/user/user.php on line 39
+[19-Apr-2016 20:48:44] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home6/dsuclass/public_html/quary12/views/layout.php:10) in /home6/dsuclass/public_html/quary12/user/user.php on line 39
+[20-Apr-2016 15:18:18] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home6/dsuclass/public_html/quary12/views/layout.php:10) in /home6/dsuclass/public_html/quary12/user/user.php on line 39
+[20-Apr-2016 15:18:18] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home6/dsuclass/public_html/quary12/views/layout.php:10) in /home6/dsuclass/public_html/quary12/user/user.php on line 39
+[20-Apr-2016 15:30:51] PHP Fatal error:  Call to a member function getUserName() on a non-object in /home6/dsuclass/public_html/quary12/views/pages/home.php on line 6
+[20-Apr-2016 15:30:53] PHP Fatal error:  Call to a member function getUserName() on a non-object in /home6/dsuclass/public_html/quary12/views/pages/home.php on line 6
+[20-Apr-2016 15:32:52] PHP Catchable fatal error:  Object of class __PHP_Incomplete_Class could not be converted to string in /home6/dsuclass/public_html/quary12/views/pages/home.php on line 6
+[20-Apr-2016 15:34:18] PHP Fatal error:  Access to undeclared static property: user::$userName in /home6/dsuclass/public_html/quary12/user/user.php on line 44
+[20-Apr-2016 15:35:50] PHP Fatal error:  Access to undeclared static property: user::$userName in /home6/dsuclass/public_html/quary12/user/user.php on line 31
+[20-Apr-2016 15:41:53] PHP Catchable fatal error:  Object of class __PHP_Incomplete_Class could not be converted to string in /home6/dsuclass/public_html/quary12/views/pages/home.php on line 6
+[20-Apr-2016 20:22:02] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home6/dsuclass/public_html/quary12/user/user.php on line 30
+[24-Apr-2016 20:18:28] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/dsuclass/public_html/quary12/views/layout.php:14) in /home6/dsuclass/public_html/quary12/views/pages/logout.php on line 17
+[24-Apr-2016 20:19:35] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/dsuclass/public_html/quary12/views/layout.php:14) in /home6/dsuclass/public_html/quary12/views/pages/logout.php on line 17
+[24-Apr-2016 21:13:59] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/dsuclass/public_html/quary12/views/layout.php:14) in /home6/dsuclass/public_html/quary12/views/pages/logout.php on line 17
+[26-Apr-2016 20:56:07] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'views/pages/postNote.php' for inclusion (include_path='.:/usr/lib64/php:/usr/share/pear') in /home6/dsuclass/public_html/quary12/controllers/pages_controller.php on line 36
+[27-Apr-2016 20:13:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/dsuclass/public_html/quary12/views/layout.php:14) in /home6/dsuclass/public_html/quary12/views/pages/logout.php on line 17
+[27-Apr-2016 20:15:31] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/dsuclass/public_html/quary12/views/layout.php:14) in /home6/dsuclass/public_html/quary12/views/pages/logout.php on line 17
+[27-Apr-2016 20:18:17] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/dsuclass/public_html/quary12/views/layout.php:14) in /home6/dsuclass/public_html/quary12/views/pages/logout.php on line 17
+[27-Apr-2016 20:19:44] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/dsuclass/public_html/quary12/views/layout.php:14) in /home6/dsuclass/public_html/quary12/views/pages/logout.php on line 17
+[27-Apr-2016 21:36:55] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/notes.php on line 17
+[27-Apr-2016 21:37:28] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/notes.php on line 17
+[28-Apr-2016 14:51:47] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/dsuclass/public_html/quary12/views/layout.php:14) in /home6/dsuclass/public_html/quary12/views/pages/logout.php on line 17
+[01-May-2016 00:48:15] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/dsuclass/public_html/quary12/views/layout.php:14) in /home6/dsuclass/public_html/quary12/views/pages/logout.php on line 17
+[01-May-2016 00:57:33] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home6/dsuclass/public_html/quary12/views/layout.php:14) in /home6/dsuclass/public_html/quary12/views/pages/logout.php on line 17
+[01-May-2016 01:14:38] PHP Fatal error:  Class 'user' not found in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 9
+[01-May-2016 01:15:52] PHP Fatal error:  Class 'user' not found in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 9
+[01-May-2016 01:16:50] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 21
+[01-May-2016 01:17:42] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 21
+[01-May-2016 01:32:14] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home6/dsuclass/public_html/quary12/user/user.php on line 28
+[01-May-2016 01:34:31] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home6/dsuclass/public_html/quary12/user/user.php on line 27
+[01-May-2016 01:35:00] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home6/dsuclass/public_html/quary12/user/user.php on line 29
+[01-May-2016 01:38:29] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home6/dsuclass/public_html/quary12/user/user.php on line 28
+[01-May-2016 01:41:02] PHP Fatal error:  Call to undefined method PDOStatement::fetch_assoc() in /home6/dsuclass/public_html/quary12/user/user.php on line 28
+[01-May-2016 01:46:48] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 21
+[01-May-2016 01:47:38] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 21
+[01-May-2016 03:03:55] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 20
+[01-May-2016 03:04:00] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 20
+[01-May-2016 03:06:01] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 20
+[01-May-2016 03:07:15] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 20
+[01-May-2016 03:07:42] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 20
+[01-May-2016 03:07:46] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/editNote.php on line 21
+[01-May-2016 03:07:51] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/editNote.php on line 21
+[01-May-2016 03:08:21] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/editNote.php on line 21
+[01-May-2016 03:09:23] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 20
+[01-May-2016 15:48:06] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 20
+[01-May-2016 15:48:52] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 20
+[01-May-2016 15:50:30] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 20
+[01-May-2016 15:50:53] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 20
+[01-May-2016 15:58:32] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/editNote.php on line 22
+[01-May-2016 16:00:23] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/editNote.php on line 22
+[01-May-2016 16:02:32] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 21
+[01-May-2016 16:05:12] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/editNote.php on line 22
+[01-May-2016 16:23:34] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 21
+[01-May-2016 16:27:07] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 21
+[01-May-2016 16:30:28] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 21
+[01-May-2016 16:34:39] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 21
+[01-May-2016 16:37:27] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 21
+[01-May-2016 16:37:37] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 21
+[01-May-2016 16:40:13] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home6/dsuclass/public_html/quary12/user/user.php on line 92
+[01-May-2016 16:49:38] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 21
+[01-May-2016 16:50:20] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 21
+[01-May-2016 16:50:48] PHP Warning:  Invalid argument supplied for foreach() in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 21
+[01-May-2016 16:51:21] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 20
+[01-May-2016 16:53:11] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home6/dsuclass/public_html/quary12/views/pages/new/viewNote.php on line 20
+[01-May-2016 17:06:51] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'views/pages/new/updateNote' for inclusion (include_path='.:/usr/lib64/php:/usr/share/pear') in /home6/dsuclass/public_html/quary12/controllers/pages_controller.php on line 54
+[01-May-2016 17:07:52] PHP Warning:  Missing argument 5 for user::updateNotes(), called in /home6/dsuclass/public_html/quary12/views/pages/new/updateNote.php on line 23 and defined in /home6/dsuclass/public_html/quary12/user/user.php on line 130

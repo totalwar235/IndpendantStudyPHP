@@ -1,0 +1,58 @@
+.whole{
+    background-color: dimgrey;
+    color: #334e6d;
+    margin: 5%;
+}
+
+.main{
+    background-color: #909090;
+    
+}
+
+.body{
+
+}
+
+.user{
+
+}
+
+.loginBox{
+    float: right;
+}
+
+.detail{
+   background-color: #999999;
+}
+
+/*footer*/
+footer{
+    color: darkgoldenrod;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    background-color: darkorange;
+}
+
+li a{
+    display: block;
+    font-size: 125%;
+}
+
+li:hover, a.Rside:hover, a.Lside:hover{
+    background-color: darkgoldenrod;
+}
+
+a.Rside{
+    float:left;
+    background-color: darkorange;
+}
+
+a.Lside{
+    float:right;
+    background-color: darkorange;
+}

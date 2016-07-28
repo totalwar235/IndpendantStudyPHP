@@ -2,6 +2,19 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/Z:/IndpendantStudyPHP/controllers/pages_controller.php</file>
+            <file>file:/Z:/IndpendantStudyPHP/views/pages/new/updateNote.php</file>
+            <file>file:/Z:/IndpendantStudyPHP/main.css</file>
+            <file>file:/Z:/IndpendantStudyPHP/user/user.php</file>
+            <file>file:/Z:/IndpendantStudyPHP/views/pages/new/editNote.php</file>
+            <file>file:/Z:/IndpendantStudyPHP/views/pages/notes.php</file>
+            <file>file:/Z:/IndpendantStudyPHP/views/pages/new/postNote.php</file>
+            <file>file:/Z:/IndpendantStudyPHP/views/pages/new/deleteNote.php</file>
+            <file>file:/Z:/IndpendantStudyPHP/views/pages/new/viewNote.php</file>
+            <file>file:/Z:/IndpendantStudyPHP/routes.php</file>
+            <file>file:/Z:/IndpendantStudyPHP/index.php</file>
+            <file>file:/Z:/IndpendantStudyPHP/views/layout.php</file>
+        </group>
     </open-files>
 </project-private>

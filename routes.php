@@ -16,7 +16,7 @@
 
   // just a list of the controllers we have and their actions
   // we consider those "allowed" values
-  $controllers = array('pages' => array('home','login','error')
+  $controllers = array('pages' => array('home','login','notes','signUp','validate','newUser','logout','newNote','postNote','viewNote','editNote','deleteNote','updateNote','error')
                 );
   
   // check that the requested controller and action are both allowed
